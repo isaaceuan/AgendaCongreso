@@ -30,7 +30,7 @@
   <div class="d-flex justify-content-around">
 
   <div class="col-md-11 col-sm-10 mt-3">
-    <label for="inputEmail4" class="form-label">Nombre de la empresa</label>
+    <label for="inputEmail4" class="form-label">Nombre de la empresa:</label>
     <input type="text" class="form-control" id="empresa" name="nombre_emp">
   </div>
 </div>
@@ -38,11 +38,11 @@
 <div class="d-flex justify-content-around">
 
 <div class="col-md-5 col-sm-4">
-  <label for="inputPassword4" class="form-label">Representante</label>
+  <label for="inputPassword4" class="form-label">Representante:</label>
   <input type="text" class="form-control campos" id="nom_rep" name="rep">
 </div>
 <div class="col-md-5 col-sm-4">
-  <label for="inputPassword4" class="form-label">Email</label>
+  <label for="inputPassword4" class="form-label">Email:</label>
   <input type="text" class="form-control campos" id="corre_e" name="correo_exp">
 </div>
 </div>
