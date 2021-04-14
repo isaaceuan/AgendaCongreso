@@ -22,6 +22,7 @@ class Agenda extends Conexion{
     $consulta = $this->conexion_db->query($sql);
     $resultado = $consulta->fetch_all(MYSQLI_ASSOC);
     return $resultado;
+    
   }
 
 
@@ -171,4 +172,6 @@ public function correoExpo($nombre,$telefono,$email,$organizacion,$fecha,$id_exp
 
 
 }
+
+?>
 

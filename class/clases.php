@@ -1,6 +1,7 @@
 <?php
 require("conexion.php") ;
 include("classCita.php");
+include("classExpositor.php");
 
 
 // ==== Librería envío de correos  ====
