@@ -2,9 +2,7 @@
 
 
 
-
 class Expositor extends Conexion{
-
 
 
     // public $expositor = "";
@@ -13,12 +11,11 @@ class Expositor extends Conexion{
   }
 
 
-
-public function guardarDatosExpositor($nombre,$representante,$correo_exp){
-    $id_evento = 1;
-    $sql = "INSERT INTO expositor VALUES(null, '$nombre','$representante','$correo_exp','$id_evento')";
+public function guardarDatosExpositor($nombre,$representante,$correo_exp, $congreso){
+    
+    $sql = "INSERT INTO expositores VALUES(null, '$nombre','$representante','$correo_exp',null, null,'$congreso')";
     $registrar_miembro = $this->conexion_db->query($sql);
-
+    return $registrar_miembro;
 }
 
 

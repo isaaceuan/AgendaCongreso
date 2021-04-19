@@ -1,5 +1,6 @@
 <?php
  require ("class/clases.php");
+ $congreso = "CPSG2020";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,7 +19,7 @@
     <link rel="stylesheet" href="styles.css">
     <script src="validar.js"></script>
     
-    <title>Document</title>
+    <title>Registro Expositor</title>
 </head>
 <body>
 <div class="container-fluid">
@@ -49,7 +50,7 @@
     </div>
   <div class="col-12">
     <div class="d-flex justify-content-center align-items-center">
-
+    <input type="hidden" name="congreso" value="<?php echo $congreso ?>">
     <button type="submit" class="btn btn-success mt-5">Guardar</button>
   </div>
   </div>
